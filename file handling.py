@@ -21,7 +21,7 @@ def FunErrorFile(file,now_):
         Error_result=f'Error Occured : {Error}'
         file.write(f"Divident : {Divident}\Divisor : {Divisor}\Result : {Error_result}")
     finally:
-        file.write{f"The Above Progarm Was Executed Successfully at {now_}!!!"}
+        file.write{f"The Above Program Was Executed Successfully at {now_}!!!"}
         file.write("")
         file.close()
      
